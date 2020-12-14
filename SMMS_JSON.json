@@ -1,0 +1,16 @@
+{
+     "Version": "13.0.1",
+     "Name": "sm.ms",
+     "DestinationType": "ImageUploader",
+     "RequestMethod": "POST",
+     "RequestURL": "https://sm.ms/api/v2/upload",
+     "Headers": {
+     "Authorization": "4p7X1b1FJIvoMqR0CUysKf3blXp5hUrL"
+     },
+     "Body": "MultipartFormData",
+     "Arguments": {
+     "format": "json"
+     },
+     "FileFormName": "smfile",
+     "URL": "$json:data.url$"
+}

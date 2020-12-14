@@ -1,0 +1,51 @@
+{
+  "history":
+  [
+    {
+      "success": true,
+      "code": "success",
+      "message": "Upload success.",
+      "data": {
+        "file_id": 0,
+        "width": 1600,
+        "height": 900,
+        "filename": "anime.png",
+        "storename": "FWzobx3PcRhGEJ7.png",
+        "size": 1441300,
+        "path": "/2020/09/16/FWzobx3PcRhGEJ7.png",
+        "hash": "AH8BbaWrcwZEPROqpFkC56h1mu",
+        "url": "https://i.loli.net/2020/09/16/FWzobx3PcRhGEJ7.png",
+        "delete": "https://sm.ms/delete/AH8BbaWrcwZEPROqpFkC56h1mu",
+        "page": "https://sm.ms/image/FWzobx3PcRhGEJ7"
+      },
+      "RequestId": "DB695918-3624-4026-AE82-2AE70B630708"
+    },
+    {
+      "success": true,
+      "code": "success",
+      "message": "Upload success.",
+      "data": {
+        "file_id": 0,
+        "width": 1600,
+        "height": 900,
+        "filename": "anime.png",
+        "storename": "FWzobx3PcRhGEJ7.png",
+        "size": 1441300,
+        "path": "/2020/09/16/FWzobx3PcRhGEJ7.png",
+        "hash": "AH8BbaWrcwZEPROqpFkC56h1mu",
+        "url": "https://i.loli.net/2020/09/16/FWzobx3PcRhGEJ7.png",
+        "delete": "https://sm.ms/delete/AH8BbaWrcwZEPROqpFkC56h1mu",
+        "page": "https://sm.ms/image/FWzobx3PcRhGEJ7"
+      },
+      "RequestId": "DB695918-3624-4026-AE82-2AE70B630708"
+    }
+  ]
+}
+
+//{
+//    "success": false,
+//    "code": "image_repeated",
+//    "message": "Image upload repeated limit, this image exists at: https://i.loli.net/2020/12/13/Oq7IKkfW6RS2c3j.png",
+//    "images": "https://i.loli.net/2020/12/13/Oq7IKkfW6RS2c3j.png",
+//    "RequestId": "AC83E4E9-A52D-4C52-8FF3-181DCF3384AA"
+//}

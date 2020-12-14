@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kalypso</class>
+ <widget class="QMainWindow" name="Kalypso">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kalypso</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="openFilePushButton">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Open file</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="uploadPushButton">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Upload</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelPushButton">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="previewLabel">
+         <property name="text">
+          <string>Preview</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="uploadedListWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>728</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionUpload"/>
+    <addaction name="separator"/>
+    <addaction name="actionSet_AuthCode"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUpload">
+   <property name="text">
+    <string>Open file</string>
+   </property>
+  </action>
+  <action name="actionSet_AuthCode">
+   <property name="text">
+    <string>Set AuthCode</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
