@@ -1,5 +1,5 @@
 import requests
-import json
+import json,os
 
 
 def upload(path):
@@ -12,4 +12,4 @@ def upload(path):
 
 
 if __name__ == "__main__":
-    upload('timg.jpg')
+    os.makedirs('./temp/2020/09/16')

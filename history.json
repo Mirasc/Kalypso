@@ -6,25 +6,6 @@
             "message": "Upload success.",
             "data": {
                 "file_id": 0,
-                "width": 500,
-                "height": 761,
-                "filename": "timg1.jpg",
-                "storename": "c1xdsJrizWHUFve.jpg",
-                "size": 15971,
-                "path": "/2020/12/14/c1xdsJrizWHUFve.jpg",
-                "hash": "xOsIptN1ljdZXyTAnVmWobaiMv",
-                "url": "https://i.loli.net/2020/12/14/c1xdsJrizWHUFve.jpg",
-                "delete": "https://sm.ms/delete/xOsIptN1ljdZXyTAnVmWobaiMv",
-                "page": "https://sm.ms/image/c1xdsJrizWHUFve"
-            },
-            "RequestId": "C6F673C2-41EE-4BEC-BD95-F3FC2D423F12"
-        },
-        {
-            "success": true,
-            "code": "success",
-            "message": "Upload success.",
-            "data": {
-                "file_id": 0,
                 "width": 610,
                 "height": 610,
                 "filename": "timg2.jpg",
